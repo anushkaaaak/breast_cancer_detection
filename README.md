@@ -25,14 +25,22 @@ The final model and preprocessing pipeline are serialized using **Joblib**, inte
 | **Deployment Readiness** | Model Serialization, Interactive Demo (`ipywidgets`), Full ML Lifecycle Management | Google Colab, GitHub |
 
 ---
+<img width="921" height="682" alt="image" src="https://github.com/user-attachments/assets/190771ff-c0f8-4e74-8e33-181d67b96b37" />
+
 
 ## 📈 Performance Comparison  
 
 | Model | Accuracy | Recall (Malignant) | ROC-AUC | Rationale |
 |--------|-----------|--------------------|----------|------------|
 | **Random Forest (Selected)** | **97.37%** | **0.93** | **0.99** | High generalization, interpretable, low inference overhead |
+<img width="530" height="455" alt="image" src="https://github.com/user-attachments/assets/3b1e9242-2299-40ca-9fab-0b8b485e7b86" />
+
 | **SVM (RBF Kernel)** | 97.37% | 0.93 | 0.99 | Strong kernel-based performance |
+<img width="530" height="455" alt="image" src="https://github.com/user-attachments/assets/0b5968fb-974c-4230-9e67-db61b9dcb0ed" />
+
 | **Logistic Regression** | 96.49% | 0.93 | 0.99 | Reliable linear baseline |
+<img width="530" height="455" alt="image" src="https://github.com/user-attachments/assets/019579b8-fb61-4cfa-8e32-4e2c542cf2fe" />
+
 
 ✅ **Decision:** The **Random Forest Classifier** was selected for its interpretability (feature importances), robustness, and ease of deployment.
 
