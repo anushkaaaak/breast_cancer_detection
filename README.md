@@ -65,8 +65,8 @@ Correlation analysis revealed that geometric tumor features such as
 ## 👩‍💻 Author  
 
 **Anushka Kandwal**  
-*Machine Learning Engineer*  
-📎 [LinkedIn Profile](https://www.linkedin.com/in/anushka-kandwal/)  
+*Final Year BTech(CSE) student *  
+📎 [LinkedIn Profile](www.linkedin.com/in/anushka-kandwal-a9b391257)  
 
 ---
 
