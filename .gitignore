@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# --- Custom ML/Data Science Ignores ---
+
+# Jupyter Notebook Artifacts
+# Ignores the hidden directory created by Jupyter/Colab for temporary autosave state.
+.ipynb_checkpoints/
+
+# Model & Scaler Serialization Files
+# Ignores large binary files used to save trained models and pre-processing pipelines.
+# These should NOT be tracked by Git.
+*.pkl
+*.joblib
+
+# Explicitly ignore the raw zip file from Kaggle
+breast-cancer-wisconsin-data.zip
