@@ -1,4 +1,4 @@
-# 🩺 Breast Cancer Classification and Prediction: A Production-Ready ML Workflow  
+# 🩺 Breast Cancer Classification and Prediction
 
 ## 🎯 Executive Summary  
 
