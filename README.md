@@ -1,6 +1,6 @@
-# 🩺 Breast Cancer Classification and Prediction
+#  Breast Cancer Classification and Prediction
 
-## 🎯 Executive Summary  
+##  Summary  
 
 This project delivers an **end-to-end Machine Learning pipeline** for classifying breast tumors as **Benign (0)** or **Malignant (1)** using the **Wisconsin Diagnostic Breast Cancer dataset**.  
 
@@ -15,7 +15,7 @@ The final model and preprocessing pipeline are serialized using **Joblib**, inte
 
 ---
 
-## 🧠 Technical Skills & Tools  
+## Technical Skills & Tools  
 
 | Category | Concepts & Highlights | Tools / Libraries |
 |-----------|----------------------|-------------------|
@@ -28,7 +28,7 @@ The final model and preprocessing pipeline are serialized using **Joblib**, inte
 <img width="921" height="682" alt="image" src="https://github.com/user-attachments/assets/190771ff-c0f8-4e74-8e33-181d67b96b37" />
 
 
-## 📈 Performance Comparison  
+## Performance Comparison  
 
 | Model | Accuracy | Recall (Malignant) | ROC-AUC | Rationale |
 |--------|-----------|--------------------|----------|------------|
@@ -42,18 +42,18 @@ The final model and preprocessing pipeline are serialized using **Joblib**, inte
 <img width="530" height="455" alt="image" src="https://github.com/user-attachments/assets/019579b8-fb61-4cfa-8e32-4e2c542cf2fe" />
 
 
-✅ **Decision:** The **Random Forest Classifier** was selected for its interpretability (feature importances), robustness, and ease of deployment.
+**Decision:** The **Random Forest Classifier** was selected for its interpretability (feature importances), robustness, and ease of deployment.
 
 ---
 
-## 🔍 Feature Correlation Insights  
+##  Feature Correlation Insights  
 
 Correlation analysis revealed that geometric tumor features such as  
 `radius_worst`, `perimeter_worst`, and `area_worst` showed the **strongest positive correlation (0.78 – 0.79)** with malignancy — aligning with medical expectations.
 
 ---
 
-## ⚙️ Project Highlights  
+##  Project Highlights  
 
 - **Data Preprocessing Pipeline:** Removed redundant columns (`id`, nulls) and standardized all 30 features to prevent scale bias.  
 - **Stratified Data Split:** Ensured balanced benign/malignant ratios in both training and test sets.  
@@ -62,7 +62,7 @@ Correlation analysis revealed that geometric tumor features such as
 
 ---
 
-## 🚀 Future Enhancements  
+##  Future Enhancements  
 
 - **Explainable AI (XAI):** Integrate **SHAP** for feature-level interpretability and clinical transparency.  
 - **Web Deployment:** Package the model using **Streamlit** or **Flask** for cloud-based inference.  
@@ -70,7 +70,7 @@ Correlation analysis revealed that geometric tumor features such as
 
 ---
 
-## 👩‍💻 Author  
+##  Author  
 
 **Anushka Kandwal**  
 *Final Year BTech(CSE) student *  
@@ -78,7 +78,7 @@ Correlation analysis revealed that geometric tumor features such as
 
 ---
 
-## 💡 Repository Overview  
+##  Repository Overview  
 
 This repository demonstrates a **production-ready ML pipeline** — from data preprocessing to model deployment — following industry best practices.  
 It highlights skills in **machine learning, model evaluation, data engineering, and deployment-readiness**, making it suitable for roles in **AI, Data Science, and Healthcare ML**.
